@@ -1,7 +1,42 @@
+
 body {
     background-color: powderblue;
   }
   h1 {
-    color: blue;
+    color: #36596c;
+    text-align: center;
+    font-family: "Lucida Console",monospace;
+  }
+  h2{
+    color: #36596c;
+    text-align: center;
+    font-family: "Lucida Console",monospace;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6899b4;
   }
   
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #c1dcec;
+  }
+
+  ul div {
+    display: inline-block;
+  }
